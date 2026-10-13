@@ -1,0 +1,17 @@
+name: FastMinecarts
+version: '${project.version}'
+main: me.certainly1182.fastminecarts.FastMinecarts
+api-version: '26.1.2'
+description: 基于 certainly1182/FastMinecarts 的衍生版，按铁轨下方方块改变被乘坐矿车的速度上限并为上坡补足推进力。
+# 原作者（上游）：certainly1182 — https://github.com/certainly1182/FastMinecarts
+authors: [zerodudu]
+folia-supported: true
+commands:
+  fastminecarts:
+    description: 管理 FastMinecarts 插件
+    usage: /<command> reload
+    aliases: [fmc]
+permissions:
+  fastminecarts.reload:
+    description: 允许重载 FastMinecarts 配置
+    default: op
